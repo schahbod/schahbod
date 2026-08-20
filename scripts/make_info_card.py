@@ -10,12 +10,12 @@ Writes info-card.svg.
 import html
 import os
 
-BG = "#0d1117"
-BORDER = "#30363d"
-KEY = "#39d353"  # green keys, GitHub-contribution green
+BG = "#0a0d13"
+BORDER = "#1e2530"
+KEY = "#4fd1c5"  # teal, matches banner accent
 VAL = "#c9d1d9"
-DIM = "#8b949e"
-ACCENT = "#58a6ff"
+DIM = "#7c8695"
+ACCENT = "#4fd1c5"
 
 W = 560
 LINE_H = 27
@@ -36,7 +36,7 @@ ROWS = [
     ("", ""),
     
 ]
-PALETTE = ["#ff7b72", "#ffa657", "#d29922", "#39d353", "#58a6ff", "#bc8cff", "#f778ba", "#c9d1d9"]
+PALETTE = ["#4fd1c5", "#f2b84b", "#4fd1c5", "#f2b84b", "#4fd1c5", "#f2b84b", "#9aa4b2", "#c9d1d9"]
 
 
 def main() -> None:
