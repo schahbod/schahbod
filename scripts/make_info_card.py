@@ -21,20 +21,20 @@ W = 560
 LINE_H = 27
 STAGGER = 0.28
 
-TITLE = "you@github"
+TITLE = "shahbod@github"
 ROWS = [
     ("", ""),
-    ("Name", "Your Name"),
-    ("Location", "Your City"),
-    ("Role", "What you do"),
+    ("Name", "Shahbod"),
+    ("Location", "Germany"),
+    ("Role", "Data & Process Analyst"),
     ("", ""),
-    ("Built", "Your best project, one line"),
-    ("Also", "Other things you make"),
+    ("Built", "Data & Process Automation"),
+    ("Also", "PostgreSQL, Citus & Superset"),
     ("", ""),
-    ("Stack", "Your tools"),
-    ("Focus", "What drives you"),
+    ("Stack", "Python, Docker, Airflow"),
+    ("Focus", "Data Engineering"),
     ("", ""),
-    ("Contact", "you@example.com"),
+    
 ]
 PALETTE = ["#ff7b72", "#ffa657", "#d29922", "#39d353", "#58a6ff", "#bc8cff", "#f778ba", "#c9d1d9"]
 
