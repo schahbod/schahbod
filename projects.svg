@@ -40,17 +40,17 @@
     <text x="72" y="108" class="mono label" fill="#7C8695">01</text>
     <text x="72" y="132" class="mono tiny" fill="#4FD1C5">DATA VISUALIZATION</text>
     <text x="72" y="160" class="sans title" fill="#EDF1F7">Superset KPI Card</text>
-    <text x="72" y="187" class="sans body">Custom visualization plugin for Apache</text>
-    <text x="72" y="207" class="sans body">Superset.</text>
-    <text x="72" y="225" class="mono stack" fill="#4FD1C5">TypeScript / React / Data Visualization</text>
+    <text x="72" y="187" class="sans body">Custom Apache Superset visualization for displaying KPI metrics</text>
+    <text x="72" y="207" class="sans body">with a configurable React-based dashboard component.</text>
+    <text x="72" y="225" class="mono stack" fill="#4FD1C5">TypeScript · React · Superset</text>
 
     <rect class="card" x="625" y="84" width="525" height="152" rx="10"/>
     <text x="647" y="108" class="mono label" fill="#7C8695">02</text>
     <text x="647" y="132" class="mono tiny" fill="#F2B84B">DISTRIBUTED DATA</text>
     <text x="647" y="160" class="sans title" fill="#EDF1F7">PostgreSQL / Citus</text>
-    <text x="647" y="187" class="sans body">Distributed PostgreSQL infrastructure</text>
-    <text x="647" y="207" class="sans body">and processing.</text>
-    <text x="647" y="225" class="mono stack" fill="#F2B84B">PostgreSQL / Citus / Docker</text>
+    <text x="647" y="187" class="sans body">Distributed PostgreSQL infrastructure using Docker, Citus,</text>
+    <text x="647" y="207" class="sans body">coordinator/worker architecture, and distributed tables.</text>
+    <text x="647" y="225" class="mono stack" fill="#F2B84B">PostgreSQL · Citus · Docker</text>
   </g>
 
   <!-- project cards row 2 -->
@@ -59,17 +59,17 @@
     <text x="72" y="278" class="mono label" fill="#7C8695">03</text>
     <text x="72" y="302" class="mono tiny" fill="#4FD1C5">PROCESS AUTOMATION</text>
     <text x="72" y="330" class="sans title" fill="#EDF1F7">Data Warehouse Automation</text>
-    <text x="72" y="357" class="sans body">Automation and optimization of warehouse</text>
-    <text x="72" y="377" class="sans body">processes.</text>
-    <text x="72" y="395" class="mono stack" fill="#4FD1C5">Python / SQL / Airflow</text>
+    <text x="72" y="357" class="sans body">Automation of repetitive data warehouse processes using Python,</text>
+    <text x="72" y="377" class="sans body">SQL, and workflow orchestration.</text>
+    <text x="72" y="395" class="mono stack" fill="#4FD1C5">Python · SQL · Airflow</text>
 
     <rect class="card" x="625" y="254" width="525" height="152" rx="10"/>
     <text x="647" y="278" class="mono label" fill="#7C8695">04</text>
     <text x="647" y="302" class="mono tiny" fill="#F2B84B">DATA ANALYTICS</text>
     <text x="647" y="330" class="sans title" fill="#EDF1F7">Data Analysis</text>
-    <text x="647" y="357" class="sans body">Data analysis and visualization projects.</text>
-    <text x="647" y="377" class="sans body">Built for practical insights and reporting.</text>
-    <text x="647" y="395" class="mono stack" fill="#F2B84B">Python / SQL / Pandas</text>
+    <text x="647" y="357" class="sans body">Exploring and transforming datasets with Python and SQL,</text>
+    <text x="647" y="377" class="sans body">with a focus on useful visualizations and data-driven insights.</text>
+    <text x="647" y="395" class="mono stack" fill="#F2B84B">Python · SQL · Pandas</text>
   </g>
 
   <!-- border -->
