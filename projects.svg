@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-label="Selected projects dashboard">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Selected projects dashboard with technology stack and data pipeline architecture">
   <style>
     .mono{font-family:ui-monospace,'JetBrains Mono','SFMono-Regular',Consolas,monospace}
     .sans{font-family:'Segoe UI','Space Grotesk',Arial,sans-serif}
@@ -16,6 +16,11 @@
     .title{font-size:20px;font-weight:700}
     .body{font-size:14px;fill:#9AA4B2}
     .stack{font-size:12px;font-weight:600}
+    .footer-title{font-size:11px;letter-spacing:1.3px}
+    .footer-body{font-size:14px;fill:#9AA4B2}
+    .footer-chip{fill:#0E131B;stroke:#2A3241;stroke-width:1}
+    .flow-link{stroke:#69707D;stroke-width:1.3}
+    .clickable{cursor:pointer}
     .mini-anim{opacity:.9;animation:miniPulse 4.8s ease-in-out infinite}
     .brick-fade{opacity:.14;animation:brickFade 6.5s ease-in-out infinite}
     @keyframes fade{to{opacity:1;transform:none}}
@@ -39,12 +44,12 @@
   </defs>
 
   <!-- background -->
-  <rect x="0" y="0" width="1200" height="430" rx="18" fill="url(#bg)"/>
-  <rect x="0" y="0" width="1200" height="430" rx="18" fill="url(#dotGrid)"/>
-  <rect x="600" y="0" width="600" height="430" rx="0" fill="url(#brickGrid)" class="brick-fade"/>
+  <rect x="0" y="0" width="1200" height="560" rx="18" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="560" rx="18" fill="url(#dotGrid)"/>
+  <rect x="600" y="0" width="600" height="560" rx="0" fill="url(#brickGrid)" class="brick-fade"/>
 
   <!-- left edge indicator -->
-  <rect x="16" y="78" width="4" height="274" rx="2" fill="#4FD1C5"/>
+  <rect x="16" y="78" width="4" height="404" rx="2" fill="#4FD1C5"/>
   <rect x="16" y="62" width="4" height="12" rx="2" fill="#F2B84B"/>
 
   <!-- header -->
@@ -59,7 +64,9 @@
     <rect class="card" x="50" y="84" width="525" height="152" rx="10"/>
     <text x="72" y="108" class="mono label" fill="#7C8695">01</text>
     <text x="72" y="132" class="mono tiny" fill="#4FD1C5">DATA VISUALIZATION</text>
-    <text x="72" y="160" class="sans title" fill="#EDF1F7">Superset KPI Card</text>
+    <a href="https://github.com/schahbod/SupersetPlugin" class="clickable" aria-label="Open SupersetPlugin repository">
+      <text x="72" y="160" class="sans title" fill="#EDF1F7">Superset KPI Card</text>
+    </a>
     <text x="72" y="187" class="sans body">Custom Apache Superset visualization for displaying KPI metrics</text>
     <text x="72" y="207" class="sans body">with a configurable React-based dashboard component.</text>
     <text x="72" y="225" class="mono stack" fill="#4FD1C5">TypeScript · React · Superset</text>
@@ -78,7 +85,9 @@
     <rect class="card" x="625" y="84" width="525" height="152" rx="10"/>
     <text x="647" y="108" class="mono label" fill="#7C8695">02</text>
     <text x="647" y="132" class="mono tiny" fill="#F2B84B">DISTRIBUTED DATA</text>
-    <text x="647" y="160" class="sans title" fill="#EDF1F7">PostgreSQL / Citus</text>
+    <a href="https://github.com/search?q=user%3Aschahbod+citus&amp;type=repositories" class="clickable" aria-label="Open Citus-related repositories">
+      <text x="647" y="160" class="sans title" fill="#EDF1F7">PostgreSQL / Citus</text>
+    </a>
     <text x="647" y="187" class="sans body">Distributed PostgreSQL infrastructure using Docker, Citus,</text>
     <text x="647" y="207" class="sans body">coordinator/worker architecture, and distributed tables.</text>
     <text x="647" y="225" class="mono stack" fill="#F2B84B">PostgreSQL · Citus · Docker</text>
@@ -105,7 +114,9 @@
     <rect class="card" x="50" y="254" width="525" height="152" rx="10"/>
     <text x="72" y="278" class="mono label" fill="#7C8695">03</text>
     <text x="72" y="302" class="mono tiny" fill="#4FD1C5">PROCESS AUTOMATION</text>
-    <text x="72" y="330" class="sans title" fill="#EDF1F7">Data Warehouse Automation</text>
+    <a href="https://github.com/schahbod/schahbod" class="clickable" aria-label="Open data warehouse automation profile repository">
+      <text x="72" y="330" class="sans title" fill="#EDF1F7">Data Warehouse Automation</text>
+    </a>
     <text x="72" y="357" class="sans body">Automation of repetitive data warehouse processes using Python,</text>
     <text x="72" y="377" class="sans body">SQL, and workflow orchestration.</text>
     <text x="72" y="395" class="mono stack" fill="#4FD1C5">Python · SQL · Airflow</text>
@@ -124,7 +135,9 @@
     <rect class="card" x="625" y="254" width="525" height="152" rx="10"/>
     <text x="647" y="278" class="mono label" fill="#7C8695">04</text>
     <text x="647" y="302" class="mono tiny" fill="#F2B84B">DATA ANALYTICS</text>
-    <text x="647" y="330" class="sans title" fill="#EDF1F7">Data Analysis</text>
+    <a href="https://github.com/schahbod/netflix-data-analysis" class="clickable" aria-label="Open data analysis repository">
+      <text x="647" y="330" class="sans title" fill="#EDF1F7">Data Analysis</text>
+    </a>
     <text x="647" y="357" class="sans body">Exploring and transforming datasets with Python and SQL,</text>
     <text x="647" y="377" class="sans body">with a focus on useful visualizations and data-driven insights.</text>
     <text x="647" y="395" class="mono stack" fill="#F2B84B">Python · SQL · Pandas</text>
@@ -140,6 +153,47 @@
     </g>
   </g>
 
+  <!-- footer separator -->
+  <line x1="40" y1="430" x2="1160" y2="430" stroke="#1E2530"/>
+
+  <!-- currently building -->
+  <g class="fade" style="animation-delay:.36s">
+    <text x="50" y="455" class="mono footer-title" fill="#4FD1C5">CURRENTLY BUILDING</text>
+    <circle cx="58" cy="478" r="3" fill="#4FD1C5"/><text x="70" y="482" class="sans footer-body">Distributed PostgreSQL infrastructure</text>
+    <circle cx="58" cy="500" r="3" fill="#F2B84B"/><text x="70" y="504" class="sans footer-body">Data warehouse automation</text>
+    <circle cx="58" cy="522" r="3" fill="#4FD1C5"/><text x="70" y="526" class="sans footer-body">Superset data visualization</text>
+  </g>
+
+  <!-- tech stack dashboard strip -->
+  <g class="fade" style="animation-delay:.43s">
+    <text x="50" y="545" class="mono footer-title" fill="#7C8695">TECH STACK FLOW</text>
+    <line x1="120" y1="518" x2="735" y2="518" class="flow-link"/>
+    <rect x="120" y="505" width="74" height="24" rx="12" class="footer-chip"/><text x="157" y="521" text-anchor="middle" class="mono" font-size="11" fill="#4FD1C5">Python</text>
+    <rect x="206" y="505" width="52" height="24" rx="12" class="footer-chip"/><text x="232" y="521" text-anchor="middle" class="mono" font-size="11" fill="#F2B84B">SQL</text>
+    <rect x="270" y="505" width="106" height="24" rx="12" class="footer-chip"/><text x="323" y="521" text-anchor="middle" class="mono" font-size="11" fill="#4FD1C5">PostgreSQL</text>
+    <rect x="388" y="505" width="64" height="24" rx="12" class="footer-chip"/><text x="420" y="521" text-anchor="middle" class="mono" font-size="11" fill="#F2B84B">Citus</text>
+    <rect x="464" y="505" width="72" height="24" rx="12" class="footer-chip"/><text x="500" y="521" text-anchor="middle" class="mono" font-size="11" fill="#4FD1C5">Docker</text>
+    <rect x="548" y="505" width="74" height="24" rx="12" class="footer-chip"/><text x="585" y="521" text-anchor="middle" class="mono" font-size="11" fill="#F2B84B">Airflow</text>
+    <rect x="634" y="505" width="94" height="24" rx="12" class="footer-chip"/><text x="681" y="521" text-anchor="middle" class="mono" font-size="11" fill="#4FD1C5">Superset</text>
+  </g>
+
+  <!-- architecture diagram -->
+  <g class="fade" style="animation-delay:.5s">
+    <text x="840" y="455" class="mono footer-title" fill="#F2B84B">PIPELINE ARCHITECTURE</text>
+    <rect x="830" y="462" width="330" height="86" rx="10" fill="#0E131B" stroke="#2A3241"/>
+
+    <text x="996" y="478" text-anchor="middle" class="mono" font-size="10" fill="#9AA4B2">SOURCE</text>
+    <line x1="996" y1="482" x2="996" y2="487" class="flow-link"/>
+    <text x="996" y="496" text-anchor="middle" class="mono" font-size="10" fill="#9AA4B2">INGEST</text>
+    <line x1="996" y1="500" x2="996" y2="505" class="flow-link"/>
+    <text x="996" y="514" text-anchor="middle" class="mono" font-size="10" fill="#9AA4B2">TRANSFORM</text>
+    <line x1="996" y1="518" x2="996" y2="523" class="flow-link"/>
+    <text x="996" y="532" text-anchor="middle" class="mono" font-size="10" fill="#EDF1F7">POSTGRES / CITUS</text>
+    <line x1="996" y1="536" x2="996" y2="541" class="flow-link"/>
+    <text x="965" y="548" text-anchor="end" class="mono" font-size="10" fill="#4FD1C5">AIRFLOW</text>
+    <text x="1027" y="548" text-anchor="start" class="mono" font-size="10" fill="#F2B84B">SUPERSET</text>
+  </g>
+
   <!-- border -->
-  <rect x="1" y="1" width="1198" height="428" rx="17" fill="none" stroke="#2A3241"/>
+  <rect x="1" y="1" width="1198" height="558" rx="17" fill="none" stroke="#2A3241"/>
 </svg>
