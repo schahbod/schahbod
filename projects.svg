@@ -65,7 +65,7 @@
     <text x="72" y="108" class="mono label" fill="#7C8695">01</text>
     <text x="72" y="132" class="mono tiny" fill="#4FD1C5">DATA VISUALIZATION</text>
     <a href="https://github.com/schahbod/SupersetPlugin" class="clickable" aria-label="Open SupersetPlugin repository">
-      <text x="72" y="160" class="sans title" fill="#EDF1F7">Superset KPI Card</text>
+      <text x="72" y="160" class="sans title" fill="#EDF1F7">Superset KPI Card Plugin</text>
     </a>
     <text x="72" y="187" class="sans body">Custom Apache Superset visualization for displaying KPI metrics</text>
     <text x="72" y="207" class="sans body">with a configurable React-based dashboard component.</text>
@@ -86,7 +86,7 @@
     <text x="647" y="108" class="mono label" fill="#7C8695">02</text>
     <text x="647" y="132" class="mono tiny" fill="#F2B84B">DISTRIBUTED DATA</text>
     <a href="https://github.com/search?q=user%3Aschahbod+citus&amp;type=repositories" class="clickable" aria-label="Open Citus-related repositories">
-      <text x="647" y="160" class="sans title" fill="#EDF1F7">PostgreSQL / Citus</text>
+      <text x="647" y="160" class="sans title" fill="#EDF1F7">Citus Distributed Cluster</text>
     </a>
     <text x="647" y="187" class="sans body">Distributed PostgreSQL infrastructure using Docker, Citus,</text>
     <text x="647" y="207" class="sans body">coordinator/worker architecture, and distributed tables.</text>
@@ -114,11 +114,11 @@
     <rect class="card" x="50" y="254" width="525" height="152" rx="10"/>
     <text x="72" y="278" class="mono label" fill="#7C8695">03</text>
     <text x="72" y="302" class="mono tiny" fill="#4FD1C5">PROCESS AUTOMATION</text>
-    <a href="https://github.com/schahbod/schahbod" class="clickable" aria-label="Open data warehouse automation profile repository">
-      <text x="72" y="330" class="sans title" fill="#EDF1F7">Data Warehouse Automation</text>
+    <a href="https://github.com/search?q=user%3Aschahbod+airflow+docker+etl&amp;type=repositories" class="clickable" aria-label="Open ETL and orchestration repositories">
+      <text x="72" y="330" class="sans title" fill="#EDF1F7">Data Pipeline / ETL Work</text>
     </a>
-    <text x="72" y="357" class="sans body">Automation of repetitive data warehouse processes using Python,</text>
-    <text x="72" y="377" class="sans body">SQL, and workflow orchestration.</text>
+    <text x="72" y="357" class="sans body">Pipeline design and ETL orchestration using Python, SQL,</text>
+    <text x="72" y="377" class="sans body">Airflow, and Docker-based infrastructure.</text>
     <text x="72" y="395" class="mono stack" fill="#4FD1C5">Python · SQL · Airflow</text>
 
     <!-- mini visualization: pipeline flow -->
@@ -135,8 +135,8 @@
     <rect class="card" x="625" y="254" width="525" height="152" rx="10"/>
     <text x="647" y="278" class="mono label" fill="#7C8695">04</text>
     <text x="647" y="302" class="mono tiny" fill="#F2B84B">DATA ANALYTICS</text>
-    <a href="https://github.com/schahbod/netflix-data-analysis" class="clickable" aria-label="Open data analysis repository">
-      <text x="647" y="330" class="sans title" fill="#EDF1F7">Data Analysis</text>
+    <a href="https://github.com/schahbod/netflix-data-analysis" class="clickable" aria-label="Open data dashboard and analysis repository">
+      <text x="647" y="330" class="sans title" fill="#EDF1F7">Data Dashboard</text>
     </a>
     <text x="647" y="357" class="sans body">Exploring and transforming datasets with Python and SQL,</text>
     <text x="647" y="377" class="sans body">with a focus on useful visualizations and data-driven insights.</text>
@@ -167,6 +167,7 @@
   <!-- tech stack dashboard strip -->
   <g class="fade" style="animation-delay:.43s">
     <text x="50" y="545" class="mono footer-title" fill="#7C8695">TECH STACK FLOW</text>
+    <text x="120" y="495" class="mono" font-size="10" fill="#9AA4B2">Python -&gt; SQL -&gt; PostgreSQL -&gt; Citus -&gt; Docker -&gt; Airflow -&gt; Superset</text>
     <line x1="120" y1="518" x2="735" y2="518" class="flow-link"/>
     <rect x="120" y="505" width="74" height="24" rx="12" class="footer-chip"/><text x="157" y="521" text-anchor="middle" class="mono" font-size="11" fill="#4FD1C5">Python</text>
     <rect x="206" y="505" width="52" height="24" rx="12" class="footer-chip"/><text x="232" y="521" text-anchor="middle" class="mono" font-size="11" fill="#F2B84B">SQL</text>
@@ -182,16 +183,23 @@
     <text x="840" y="455" class="mono footer-title" fill="#F2B84B">PIPELINE ARCHITECTURE</text>
     <rect x="830" y="462" width="330" height="86" rx="10" fill="#0E131B" stroke="#2A3241"/>
 
-    <text x="996" y="478" text-anchor="middle" class="mono" font-size="10" fill="#9AA4B2">SOURCE</text>
-    <line x1="996" y1="482" x2="996" y2="487" class="flow-link"/>
-    <text x="996" y="496" text-anchor="middle" class="mono" font-size="10" fill="#9AA4B2">INGEST</text>
-    <line x1="996" y1="500" x2="996" y2="505" class="flow-link"/>
-    <text x="996" y="514" text-anchor="middle" class="mono" font-size="10" fill="#9AA4B2">TRANSFORM</text>
-    <line x1="996" y1="518" x2="996" y2="523" class="flow-link"/>
-    <text x="996" y="532" text-anchor="middle" class="mono" font-size="10" fill="#EDF1F7">POSTGRES / CITUS</text>
-    <line x1="996" y1="536" x2="996" y2="541" class="flow-link"/>
-    <text x="965" y="548" text-anchor="end" class="mono" font-size="10" fill="#4FD1C5">AIRFLOW</text>
-    <text x="1027" y="548" text-anchor="start" class="mono" font-size="10" fill="#F2B84B">SUPERSET</text>
+    <text x="875" y="478" class="mono" font-size="10" fill="#9AA4B2">SOURCE</text>
+    <text x="875" y="488" class="mono" font-size="10" fill="#69707D">v</text>
+    <text x="875" y="498" class="mono" font-size="10" fill="#9AA4B2">INGEST</text>
+    <text x="875" y="508" class="mono" font-size="10" fill="#69707D">v</text>
+    <text x="875" y="518" class="mono" font-size="10" fill="#9AA4B2">TRANSFORM</text>
+    <text x="875" y="528" class="mono" font-size="10" fill="#69707D">v</text>
+    <text x="875" y="538" class="mono" font-size="10" fill="#EDF1F7">POSTGRES / CITUS</text>
+
+    <line x1="1004" y1="476" x2="1004" y2="538" class="flow-link"/>
+    <circle cx="1004" cy="484" r="3" fill="#4FD1C5"/>
+    <circle cx="1004" cy="500" r="3" fill="#F2B84B"/>
+    <circle cx="1004" cy="516" r="3" fill="#4FD1C5"/>
+    <circle cx="1004" cy="532" r="3" fill="#F2B84B"/>
+
+    <text x="1045" y="495" class="mono" font-size="10" fill="#4FD1C5">AIRFLOW</text>
+    <text x="1045" y="512" class="mono" font-size="10" fill="#F2B84B">SUPERSET</text>
+    <text x="1045" y="529" class="mono" font-size="10" fill="#EDF1F7">DASHBOARD</text>
   </g>
 
   <!-- border -->
