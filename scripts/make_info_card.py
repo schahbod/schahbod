@@ -54,7 +54,7 @@ def main() -> None:
         f'font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14">',
         f"<style>{anim_css}</style>",
         f'<rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="6" fill="{BG}" stroke="{BORDER}"/>',
-        # flat title row - no traffic-light chrome, no glow
+        # flat title row — no traffic-light chrome, no glow
         f'<text x="24" y="34" fill="{QUIET}" font-size="12" letter-spacing="0.5">{TITLE}</text>',
         f'<line x1="1" y1="50" x2="{W - 1}" y2="50" stroke="{BORDER}"/>',
     ]
