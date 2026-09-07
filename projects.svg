@@ -3,23 +3,23 @@
     .mono{font-family:ui-monospace,'JetBrains Mono','SFMono-Regular',Consolas,monospace}
     .sans{font-family:'Segoe UI','Space Grotesk',Arial,sans-serif}
     .fade{opacity:0;transform:translateY(5px);animation:fade .65s ease-out forwards}
-    .card{fill:#121826;stroke:#2A3241;stroke-width:1}
-    .mini-panel{fill:#0E131B;stroke:#2A3241;stroke-width:1}
-    .mini-axis{stroke:#2A3241;stroke-width:1}
-    .mini-teal{fill:#4FD1C5;stroke:#4FD1C5}
-    .mini-amber{fill:#F2B84B;stroke:#F2B84B}
+    .card{fill:#0E0F12;stroke:#1C1E22;stroke-width:1}
+    .mini-panel{fill:#0A0B0D;stroke:#1C1E22;stroke-width:1}
+    .mini-axis{stroke:#2A2D32;stroke-width:1}
+    .mini-teal{fill:#3ECF8E;stroke:#3ECF8E}
+    .mini-amber{fill:#8A8F98;stroke:#8A8F98}
     .mini-line{fill:none;stroke-width:2}
-    .mini-node{stroke:#121826;stroke-width:1.2}
-    .mini-link{stroke:#7C8695;stroke-width:1.4;stroke-dasharray:2 3}
+    .mini-node{stroke:#0A0B0D;stroke-width:1.2}
+    .mini-link{stroke:#5C6169;stroke-width:1.4;stroke-dasharray:2 3}
     .tiny{font-size:10px;letter-spacing:1.4px}
     .label{font-size:12px;letter-spacing:1px}
     .title{font-size:20px;font-weight:700}
-    .body{font-size:14px;fill:#9AA4B2}
+    .body{font-size:14px;fill:#8A8F98}
     .stack{font-size:12px;font-weight:600}
     .footer-title{font-size:11px;letter-spacing:1.3px}
-    .footer-body{font-size:14px;fill:#9AA4B2}
-    .footer-chip{fill:#0E131B;stroke:#2A3241;stroke-width:1}
-    .flow-link{stroke:#69707D;stroke-width:1.3}
+    .footer-body{font-size:14px;fill:#8A8F98}
+    .footer-chip{fill:#0A0B0D;stroke:#1C1E22;stroke-width:1}
+    .flow-link{stroke:#5C6169;stroke-width:1.3}
     .clickable{cursor:pointer}
     .mini-anim{opacity:.9;animation:miniPulse 4.8s ease-in-out infinite}
     .brick-fade{opacity:.14;animation:brickFade 6.5s ease-in-out infinite}
@@ -31,45 +31,45 @@
   <!-- definitions -->
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0A0D13"/>
-      <stop offset="100%" stop-color="#121826"/>
+      <stop offset="0%" stop-color="#0A0B0D"/>
+      <stop offset="100%" stop-color="#0A0B0D"/>
     </linearGradient>
     <pattern id="dotGrid" x="0" y="0" width="18" height="18" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="1" fill="#2A3241" fill-opacity="0.22"/>
+      <circle cx="1" cy="1" r="1" fill="#1C1E22" fill-opacity="0.3"/>
     </pattern>
     <pattern id="brickGrid" x="0" y="0" width="36" height="18" patternUnits="userSpaceOnUse">
-      <rect x="2" y="3" width="12" height="5" rx="1" fill="#4FD1C5" fill-opacity="0.2"/>
-      <rect x="18" y="10" width="14" height="5" rx="1" fill="#F2B84B" fill-opacity="0.16"/>
+      <rect x="2" y="3" width="12" height="5" rx="1" fill="#3ECF8E" fill-opacity="0.18"/>
+      <rect x="18" y="10" width="14" height="5" rx="1" fill="#5C6169" fill-opacity="0.16"/>
     </pattern>
   </defs>
 
   <!-- background -->
-  <rect x="0" y="0" width="1200" height="560" rx="18" fill="url(#bg)"/>
-  <rect x="0" y="0" width="1200" height="560" rx="18" fill="url(#dotGrid)"/>
+  <rect x="0" y="0" width="1200" height="560" rx="6" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="560" rx="6" fill="url(#dotGrid)"/>
   <rect x="600" y="0" width="600" height="560" rx="0" fill="url(#brickGrid)" class="brick-fade"/>
 
   <!-- left edge indicator -->
-  <rect x="16" y="78" width="4" height="404" rx="2" fill="#4FD1C5"/>
-  <rect x="16" y="62" width="4" height="12" rx="2" fill="#F2B84B"/>
+  <rect x="16" y="78" width="4" height="404" rx="2" fill="#3ECF8E"/>
+  <rect x="16" y="62" width="4" height="12" rx="2" fill="#3ECF8E"/>
 
   <!-- header -->
   <g class="fade" style="animation-delay:.05s">
-    <text x="40" y="44" class="mono tiny" fill="#4FD1C5">PROJECTS</text>
-    <text x="1160" y="44" text-anchor="end" class="mono tiny" fill="#F2B84B">04 SELECTED</text>
-    <line x1="40" y1="60" x2="1160" y2="60" stroke="#1E2530"/>
+    <text x="40" y="44" class="mono tiny" fill="#3ECF8E">PROJECTS</text>
+    <text x="1160" y="44" text-anchor="end" class="mono tiny" fill="#8A8F98">04 SELECTED</text>
+    <line x1="40" y1="60" x2="1160" y2="60" stroke="#1C1E22"/>
   </g>
 
   <!-- project cards row 1 -->
   <g class="fade" style="animation-delay:.16s">
     <rect class="card" x="50" y="84" width="525" height="152" rx="10"/>
-    <text x="72" y="108" class="mono label" fill="#7C8695">01</text>
-    <text x="72" y="132" class="mono tiny" fill="#4FD1C5">DATA VISUALIZATION</text>
+    <text x="72" y="108" class="mono label" fill="#5C6169">01</text>
+    <text x="72" y="132" class="mono tiny" fill="#3ECF8E">DATA VISUALIZATION</text>
     <a href="https://github.com/schahbod/SupersetPlugin" class="clickable" aria-label="Open SupersetPlugin repository">
-      <text x="72" y="160" class="sans title" fill="#EDF1F7">Superset KPI Card Plugin</text>
+      <text x="72" y="160" class="sans title" fill="#F2F3F5">Superset KPI Card Plugin</text>
     </a>
     <text x="72" y="187" class="sans body">Custom Apache Superset visualization for displaying KPI metrics</text>
     <text x="72" y="207" class="sans body">with a configurable React-based dashboard component.</text>
-    <text x="72" y="225" class="mono stack" fill="#4FD1C5">TypeScript · React · Superset</text>
+    <text x="72" y="225" class="mono stack" fill="#3ECF8E">TypeScript · React · Superset</text>
 
     <!-- mini visualization: KPI bar chart -->
     <g transform="translate(470 102)" class="mini-anim">
@@ -83,14 +83,14 @@
     </g>
 
     <rect class="card" x="625" y="84" width="525" height="152" rx="10"/>
-    <text x="647" y="108" class="mono label" fill="#7C8695">02</text>
-    <text x="647" y="132" class="mono tiny" fill="#F2B84B">DISTRIBUTED DATA</text>
+    <text x="647" y="108" class="mono label" fill="#5C6169">02</text>
+    <text x="647" y="132" class="mono tiny" fill="#3ECF8E">DISTRIBUTED DATA</text>
     <a href="https://github.com/search?q=user%3Aschahbod+citus&amp;type=repositories" class="clickable" aria-label="Open Citus-related repositories">
-      <text x="647" y="160" class="sans title" fill="#EDF1F7">Citus Distributed Cluster</text>
+      <text x="647" y="160" class="sans title" fill="#F2F3F5">Citus Distributed Cluster</text>
     </a>
     <text x="647" y="187" class="sans body">Distributed PostgreSQL infrastructure using Docker, Citus,</text>
     <text x="647" y="207" class="sans body">coordinator/worker architecture, and distributed tables.</text>
-    <text x="647" y="225" class="mono stack" fill="#F2B84B">PostgreSQL · Citus · Docker</text>
+    <text x="647" y="225" class="mono stack" fill="#3ECF8E">PostgreSQL · Citus · Docker</text>
 
     <!-- mini visualization: distributed node diagram -->
     <g transform="translate(1045 102)" class="mini-anim">
@@ -112,14 +112,14 @@
   <!-- project cards row 2 -->
   <g class="fade" style="animation-delay:.28s">
     <rect class="card" x="50" y="254" width="525" height="152" rx="10"/>
-    <text x="72" y="278" class="mono label" fill="#7C8695">03</text>
-    <text x="72" y="302" class="mono tiny" fill="#4FD1C5">PROCESS AUTOMATION</text>
+    <text x="72" y="278" class="mono label" fill="#5C6169">03</text>
+    <text x="72" y="302" class="mono tiny" fill="#3ECF8E">PROCESS AUTOMATION</text>
     <a href="https://github.com/search?q=user%3Aschahbod+airflow+docker+etl&amp;type=repositories" class="clickable" aria-label="Open ETL and orchestration repositories">
-      <text x="72" y="330" class="sans title" fill="#EDF1F7">Data Pipeline / ETL Work</text>
+      <text x="72" y="330" class="sans title" fill="#F2F3F5">Data Pipeline / ETL Work</text>
     </a>
     <text x="72" y="357" class="sans body">Pipeline design and ETL orchestration using Python, SQL,</text>
     <text x="72" y="377" class="sans body">Airflow, and Docker-based infrastructure.</text>
-    <text x="72" y="395" class="mono stack" fill="#4FD1C5">Python · SQL · Airflow</text>
+    <text x="72" y="395" class="mono stack" fill="#3ECF8E">Python · SQL · Airflow</text>
 
     <!-- mini visualization: pipeline flow -->
     <g transform="translate(470 272)" class="mini-anim">
@@ -133,14 +133,14 @@
     </g>
 
     <rect class="card" x="625" y="254" width="525" height="152" rx="10"/>
-    <text x="647" y="278" class="mono label" fill="#7C8695">04</text>
-    <text x="647" y="302" class="mono tiny" fill="#F2B84B">DATA ANALYTICS</text>
+    <text x="647" y="278" class="mono label" fill="#5C6169">04</text>
+    <text x="647" y="302" class="mono tiny" fill="#3ECF8E">DATA ANALYTICS</text>
     <a href="https://github.com/schahbod/netflix-data-analysis" class="clickable" aria-label="Open data dashboard and analysis repository">
-      <text x="647" y="330" class="sans title" fill="#EDF1F7">Data Dashboard</text>
+      <text x="647" y="330" class="sans title" fill="#F2F3F5">Data Dashboard</text>
     </a>
     <text x="647" y="357" class="sans body">Exploring and transforming datasets with Python and SQL,</text>
     <text x="647" y="377" class="sans body">with a focus on useful visualizations and data-driven insights.</text>
-    <text x="647" y="395" class="mono stack" fill="#F2B84B">Python · SQL · Pandas</text>
+    <text x="647" y="395" class="mono stack" fill="#3ECF8E">Python · SQL · Pandas</text>
 
     <!-- mini visualization: line chart -->
     <g transform="translate(1045 272)" class="mini-anim">
@@ -154,54 +154,54 @@
   </g>
 
   <!-- footer separator -->
-  <line x1="40" y1="430" x2="1160" y2="430" stroke="#1E2530"/>
+  <line x1="40" y1="430" x2="1160" y2="430" stroke="#1C1E22"/>
 
   <!-- currently building -->
   <g class="fade" style="animation-delay:.36s">
-    <text x="50" y="455" class="mono footer-title" fill="#4FD1C5">CURRENTLY BUILDING</text>
-    <circle cx="58" cy="478" r="3" fill="#4FD1C5"/><text x="70" y="482" class="sans footer-body">Distributed PostgreSQL infrastructure</text>
-    <circle cx="58" cy="500" r="3" fill="#F2B84B"/><text x="70" y="504" class="sans footer-body">Data warehouse automation</text>
-    <circle cx="58" cy="522" r="3" fill="#4FD1C5"/><text x="70" y="526" class="sans footer-body">Superset data visualization</text>
+    <text x="50" y="455" class="mono footer-title" fill="#3ECF8E">CURRENTLY BUILDING</text>
+    <circle cx="58" cy="478" r="3" fill="#3ECF8E"/><text x="70" y="482" class="sans footer-body">Distributed PostgreSQL infrastructure</text>
+    <circle cx="58" cy="500" r="3" fill="#3ECF8E"/><text x="70" y="504" class="sans footer-body">Data warehouse automation</text>
+    <circle cx="58" cy="522" r="3" fill="#3ECF8E"/><text x="70" y="526" class="sans footer-body">Superset data visualization</text>
   </g>
 
   <!-- tech stack dashboard strip -->
   <g class="fade" style="animation-delay:.43s">
-    <text x="50" y="545" class="mono footer-title" fill="#7C8695">TECH STACK FLOW</text>
-    <text x="120" y="495" class="mono" font-size="10" fill="#9AA4B2">Python -&gt; SQL -&gt; PostgreSQL -&gt; Citus -&gt; Docker -&gt; Airflow -&gt; Superset</text>
+    <text x="50" y="545" class="mono footer-title" fill="#5C6169">TECH STACK FLOW</text>
+    <text x="120" y="495" class="mono" font-size="10" fill="#8A8F98">Python -&gt; SQL -&gt; PostgreSQL -&gt; Citus -&gt; Docker -&gt; Airflow -&gt; Superset</text>
     <line x1="120" y1="518" x2="735" y2="518" class="flow-link"/>
-    <rect x="120" y="505" width="74" height="24" rx="12" class="footer-chip"/><text x="157" y="521" text-anchor="middle" class="mono" font-size="11" fill="#4FD1C5">Python</text>
-    <rect x="206" y="505" width="52" height="24" rx="12" class="footer-chip"/><text x="232" y="521" text-anchor="middle" class="mono" font-size="11" fill="#F2B84B">SQL</text>
-    <rect x="270" y="505" width="106" height="24" rx="12" class="footer-chip"/><text x="323" y="521" text-anchor="middle" class="mono" font-size="11" fill="#4FD1C5">PostgreSQL</text>
-    <rect x="388" y="505" width="64" height="24" rx="12" class="footer-chip"/><text x="420" y="521" text-anchor="middle" class="mono" font-size="11" fill="#F2B84B">Citus</text>
-    <rect x="464" y="505" width="72" height="24" rx="12" class="footer-chip"/><text x="500" y="521" text-anchor="middle" class="mono" font-size="11" fill="#4FD1C5">Docker</text>
-    <rect x="548" y="505" width="74" height="24" rx="12" class="footer-chip"/><text x="585" y="521" text-anchor="middle" class="mono" font-size="11" fill="#F2B84B">Airflow</text>
-    <rect x="634" y="505" width="94" height="24" rx="12" class="footer-chip"/><text x="681" y="521" text-anchor="middle" class="mono" font-size="11" fill="#4FD1C5">Superset</text>
+    <rect x="120" y="505" width="74" height="24" rx="12" class="footer-chip"/><text x="157" y="521" text-anchor="middle" class="mono" font-size="11" fill="#3ECF8E">Python</text>
+    <rect x="206" y="505" width="52" height="24" rx="12" class="footer-chip"/><text x="232" y="521" text-anchor="middle" class="mono" font-size="11" fill="#3ECF8E">SQL</text>
+    <rect x="270" y="505" width="106" height="24" rx="12" class="footer-chip"/><text x="323" y="521" text-anchor="middle" class="mono" font-size="11" fill="#3ECF8E">PostgreSQL</text>
+    <rect x="388" y="505" width="64" height="24" rx="12" class="footer-chip"/><text x="420" y="521" text-anchor="middle" class="mono" font-size="11" fill="#3ECF8E">Citus</text>
+    <rect x="464" y="505" width="72" height="24" rx="12" class="footer-chip"/><text x="500" y="521" text-anchor="middle" class="mono" font-size="11" fill="#3ECF8E">Docker</text>
+    <rect x="548" y="505" width="74" height="24" rx="12" class="footer-chip"/><text x="585" y="521" text-anchor="middle" class="mono" font-size="11" fill="#3ECF8E">Airflow</text>
+    <rect x="634" y="505" width="94" height="24" rx="12" class="footer-chip"/><text x="681" y="521" text-anchor="middle" class="mono" font-size="11" fill="#3ECF8E">Superset</text>
   </g>
 
   <!-- architecture diagram -->
   <g class="fade" style="animation-delay:.5s">
-    <text x="840" y="455" class="mono footer-title" fill="#F2B84B">PIPELINE ARCHITECTURE</text>
-    <rect x="830" y="462" width="330" height="86" rx="10" fill="#0E131B" stroke="#2A3241"/>
+    <text x="840" y="455" class="mono footer-title" fill="#3ECF8E">PIPELINE ARCHITECTURE</text>
+    <rect x="830" y="462" width="330" height="86" rx="10" fill="#0A0B0D" stroke="#1C1E22"/>
 
-    <text x="875" y="478" class="mono" font-size="10" fill="#9AA4B2">SOURCE</text>
-    <text x="875" y="488" class="mono" font-size="10" fill="#69707D">v</text>
-    <text x="875" y="498" class="mono" font-size="10" fill="#9AA4B2">INGEST</text>
-    <text x="875" y="508" class="mono" font-size="10" fill="#69707D">v</text>
-    <text x="875" y="518" class="mono" font-size="10" fill="#9AA4B2">TRANSFORM</text>
-    <text x="875" y="528" class="mono" font-size="10" fill="#69707D">v</text>
-    <text x="875" y="538" class="mono" font-size="10" fill="#EDF1F7">POSTGRES / CITUS</text>
+    <text x="875" y="478" class="mono" font-size="10" fill="#8A8F98">SOURCE</text>
+    <text x="875" y="488" class="mono" font-size="10" fill="#5C6169">v</text>
+    <text x="875" y="498" class="mono" font-size="10" fill="#8A8F98">INGEST</text>
+    <text x="875" y="508" class="mono" font-size="10" fill="#5C6169">v</text>
+    <text x="875" y="518" class="mono" font-size="10" fill="#8A8F98">TRANSFORM</text>
+    <text x="875" y="528" class="mono" font-size="10" fill="#5C6169">v</text>
+    <text x="875" y="538" class="mono" font-size="10" fill="#F2F3F5">POSTGRES / CITUS</text>
 
     <line x1="1004" y1="476" x2="1004" y2="538" class="flow-link"/>
-    <circle cx="1004" cy="484" r="3" fill="#4FD1C5"/>
-    <circle cx="1004" cy="500" r="3" fill="#F2B84B"/>
-    <circle cx="1004" cy="516" r="3" fill="#4FD1C5"/>
-    <circle cx="1004" cy="532" r="3" fill="#F2B84B"/>
+    <circle cx="1004" cy="484" r="3" fill="#3ECF8E"/>
+    <circle cx="1004" cy="500" r="3" fill="#3ECF8E"/>
+    <circle cx="1004" cy="516" r="3" fill="#3ECF8E"/>
+    <circle cx="1004" cy="532" r="3" fill="#3ECF8E"/>
 
-    <text x="1045" y="495" class="mono" font-size="10" fill="#4FD1C5">AIRFLOW</text>
-    <text x="1045" y="512" class="mono" font-size="10" fill="#F2B84B">SUPERSET</text>
-    <text x="1045" y="529" class="mono" font-size="10" fill="#EDF1F7">DASHBOARD</text>
+    <text x="1045" y="495" class="mono" font-size="10" fill="#3ECF8E">AIRFLOW</text>
+    <text x="1045" y="512" class="mono" font-size="10" fill="#3ECF8E">SUPERSET</text>
+    <text x="1045" y="529" class="mono" font-size="10" fill="#F2F3F5">DASHBOARD</text>
   </g>
 
   <!-- border -->
-  <rect x="1" y="1" width="1198" height="558" rx="17" fill="none" stroke="#2A3241"/>
+  <rect x="1" y="1" width="1198" height="558" rx="6" fill="none" stroke="#1C1E22"/>
 </svg>
