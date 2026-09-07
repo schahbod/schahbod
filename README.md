@@ -1,13 +1,13 @@
 <div align="center">
 	<img
-		src="./info-card.svg"
+		src="./info-card.svg?v=20260907a"
 		width="1200"
 		alt="Shahbod data and process analyst dashboard"
 		aria-label="Profile header showing Shahbod's role, stack, and data pipeline"
 	/>
 	<br><br>
 	<img
-		src="./projects.svg"
+		src="./projects.svg?v=20260907a"
 		width="1200"
 		alt="Selected projects dashboard"
 		aria-label="Project cards with architecture and tech stack flow"
